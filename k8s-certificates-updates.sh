@@ -1,7 +1,8 @@
 #!/bin/bash
 # Generate new certificates for 10 years
 # Kubeadm generates certificates by default for 1 years
-# Optimized for Kubernetes Version 1.8.3
+# Optimized for Kubernetes Version 1.9.4
+# Tested with Kubernetes Versions 1.8.0 - 1.9.4
 # Written by Rick
 
 MASTER_HOSTNAME="$(hostname)"
